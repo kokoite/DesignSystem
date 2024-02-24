@@ -10,7 +10,7 @@ import UIKit
 
 public class Font {
 
-    private let fontExtension = "otf"
+    private let fontExtension = "ttf"
 
     /// Registers all the fonts available in the `DunzoDesignSystem`
     func register() {
