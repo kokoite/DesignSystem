@@ -28,10 +28,10 @@ public class Color {
         }
     }
 
-    enum SecondaryAction: String, ColorRepresentable {
+    public enum SecondaryAction: String, ColorRepresentable {
         case background = "secondaryAction"
 
-        var color: UIColor? {
+        public var color: UIColor? {
             return UIColor(named: rawValue, in: .module, compatibleWith: nil)
         }
     }

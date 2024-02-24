@@ -26,11 +26,11 @@ public class Font {
         case medium = "Roboto-Medium"
         case regular = "Roboto-Regular"
 
-        var name: String {
+        public var name: String {
             rawValue
         }
 
-        func font(for size: CGFloat) -> UIFont? {
+        public func font(for size: CGFloat) -> UIFont? {
             UIFont(name: name, size: size)
         }
     }
