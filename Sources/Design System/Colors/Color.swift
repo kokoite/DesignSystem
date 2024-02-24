@@ -12,7 +12,7 @@ public class Color {
 
     public enum Primary: String, ColorRepresentable {
 
-        case background = "Primary"
+        case background = "primary"
 
         public var color: UIColor? {
             return UIColor(named: rawValue, in: .module, compatibleWith: nil)
@@ -21,7 +21,7 @@ public class Color {
 
     public enum PrimaryAction: String, ColorRepresentable {
 
-        case background = "PrimaryAction"
+        case background = "primaryAction"
 
         public var color: UIColor? {
             return UIColor(named: rawValue, in: .module, compatibleWith: nil)
@@ -29,12 +29,10 @@ public class Color {
     }
 
     enum SecondaryAction: String, ColorRepresentable {
-        case background = "SecondaryAction"
+        case background = "secondaryAction"
 
         var color: UIColor? {
             return UIColor(named: rawValue, in: .module, compatibleWith: nil)
         }
     }
-
-
 }
